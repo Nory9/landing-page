@@ -1,1 +1,74 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #E5E7EB;
+}
+
+.flex-container {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+}
+.flex-container .nav-bar {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+.flex-container .nav-bar ul li {
+  display: inline-block;
+  text-align: right;
+  margin-right: 2rem;
+}
+.flex-container .main-header {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+}
+.flex-container .main-header .left-sec {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-all;
+  width: 40%;
+}
+.flex-container .main-header .left-sec h1 {
+  font-size: 48px;
+  margin-bottom: 1rem;
+}
+.flex-container .main-header .left-sec p {
+  margin-bottom: 1rem;
+}
+.flex-container .main-header .left-sec .btn {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding: 15px 2.5rem;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.flex-container .main-header .left-sec .btn:hover {
+  opacity: 0.5;
+}
+.flex-container .main-header .right-sec {
+  width: 45rem;
+  height: 20rem;
+  margin-left: 10rem;
+  margin-right: 5rem;
+}
+.flex-container .main-header .right-sec img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

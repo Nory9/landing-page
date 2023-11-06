@@ -1,0 +1,15 @@
+@mixin btn{
+    background-color: $primary-color;
+    color: $light-color;
+    padding: 15px 2.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+    
+    &:hover{
+        opacity: 0.5;
+       
+    }
+   
+}
